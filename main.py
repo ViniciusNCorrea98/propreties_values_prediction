@@ -4,6 +4,8 @@ import seaborn as sns
 import numpy as np
 from sklearn.model_selection import train_test_split
 
+
+#https://www.kaggle.com/datasets/camnugent/california-housing-prices
 data = pd.read_csv('./housing.csv')
 data.dropna(inplace=True)
 
